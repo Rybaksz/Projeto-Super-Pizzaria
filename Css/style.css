@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    background-image: url("../imagens/bg_site.jpg");
+    display: flex;
+    justify-content: center;
+
+}
+
+#container {
+
+    background-color: rgba(255, 253, 195, 0.761);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 1190px;
+    
+
+}
+
+header img {
+
+    width: 250px;
+
+}
+
+nav ul li {
+
+    list-style-type: none;
+    margin: 25px;
+
+}
+
+.menu {
+
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+
+    display: flex;
+
+}
+
+a.menu:link {
+
+    color: #b83229;
+
+}
+
+a.menu:visited {
+
+    color: #b83229;
+}
+
+a.menu:hover {
+
+    color: #00a800;
+
+}
+
+a.menu:active {
+
+    color: #b83229;
+
+}
+
+.principal article h1{
+
+    color: #b83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 2px 4px 10px #e0544a;
+    
+}
+
+.principal article p{
+
+    color: #005A20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.cardapio p , .local p{
+
+    color: #005A20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    
+
+
+}
+
+.cardapio h2 , .local h2{
+
+    color: #b83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+
+.secundario{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardapio , .local{
+
+    width: 565px;
+
+
+}
+
+
