@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
     <!-- favicon é usado para colocar um icone one fica o titulo da pagina -->
     <!-- Sempre que for inserir um icone em sua pagina ele tem que ter no min 48px por 48px 
     Ou Multiplos de 48 -->
@@ -42,9 +47,15 @@
             </nav>
 
         </header>
+      <br>
+      <br>
         <section class="destaque">
 
-            <img src="imagens/topo_home.png" alt="Pizza Super Pizza" class="pizza" no repeat>
+<div class="carousel">
+  <div><img src="imagens/PIZZA1 (3).png" width="1200" height="500"></div>
+  <div><img src="imagens/natureza-morta-de-pratos-de-fast-food.jpg" width="1200" height="500"></div>
+  <div><img src="imagens/pizza-de-ingredientes-misturados-em-uma-placa-de-madeira.jpg" width="1200" height="500"></div>
+</div>
 
         </section>
         <main>
@@ -109,14 +120,29 @@
             </section>
 
         </main>
-
-
-
-
+          
     </div>
+<footer>
 
+
+
+  
+</footer>
 
 
 </body>
+  
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.carousel').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear'
+    });
+  });
+</script>
+
 
 </html>
